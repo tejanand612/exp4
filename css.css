@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+}
+#head{
+    background-image: linear-gradient(to bottom,darkgreen,white);
+    height: 70px;
+    line-height: 70px;
+    border-radius: 30px;
+    box-shadow: 5px 5px olivedrab;
+    text-align: center;
+    font-size: 40;
+    color: white;
+    position: relative;
+    margin: 5px;
+}
+#img{
+    float: left;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+#navbar{
+    text-align: center;
+    background-color: lightgreen;
+    height: 30px;
+    font-size: 20px;
+}
+#a{
+    text-decoration: none;
+    color: red;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#d1{
+    background-image: url(image4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+#d2{
+    float: left;
+    background-image: url(image5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#d3{
+    float: left;
+    background-image: url(image11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+#d4{
+    float: left;
+    background-image: url(image12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+#d5{
+    float: left;
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    top: 50px;
+    left: 400px;
+    text-align: center;
+    color: red;
+    padding: 5px;
+}
+#d6{
+    float: left;
+    background-image: linear-gradient(to right,darkgreen,greenyellow);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 100px;
+    left: 375px;
+    text-align: center;
+    color: black;
+    line-height: 70px;
+}
+#d7{
+    float: left;
+    background-image: linear-gradient(to right,darkorchid,blue);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    text-align: center;
+    color: black;
+    line-height: 70px;
+}
+#d8{
+    float: left;
+    background-image: linear-gradient(to right,white,red);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    left: 425px;
+    text-align: center;
+    color: black;
+    line-height: 70px;
+}
+#d9{
+    float: left;
+    background-image: linear-gradient(to right,yellow,greenyellow);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 250px;
+    left: 450px;
+    text-align: center;
+    color: black;
+    line-height: 70px;
+}
+#d10{
+    float: right;
+    position: absolute;
+    background-color: pink;
+    width: 430px;
+    height: 20px;
+    line-height: 20px;
+    top: 50px;
+    right: 1px;
+}
+#d11{
+    float: right;
+    position: fixed;
+    top: 70px;
+    right: 30px;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+#p{
+    background-color: darkmagenta;
+    position: relative;
+}
+#p1{
+    position: relative;
+    background-color: pink;
+    border-radius: 80px;
+    text-align: justify;
+    color: black;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 180px;
+    padding-bottom: 20px;
+}
+#img1{
+    float: right;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+}
+#foot{
+    background-color: green;
+    font-size: 40;
+    color: black;
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}

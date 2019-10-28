@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Admission</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Karunya University</h1>
+            <fieldset> <table style="width:100%">
+  <tr>
+  <img src="download.jpg" height="400" width="1000" alt=""/>
+      <th><a href="https://eduserve.karunya.edu/Login.aspx?ReturnUrl=%2f">Home</a></th>
+      <th><a href="">admissions</a></th>
+      <th><a href="http://localhost:8383/page%203/index.html">Calander</a></th>
+    <th><input type="text" placeholder="Search.."></th>
+  </tr>
+  <hr>
+                </table></fieldset>
+        <form action="admission.txt" method=post">
+        <fieldset>
+            <legend>Application</legend>
+            <center><table>
+                    <tr>
+            <td><label>Name:</label></td>
+            <td><input type="text" placeholder="Enter" required></td></tr>
+                    <tr>
+            <td><label>Application Number:</label></td>
+            <td><input type="text" placeholder="KU2019CSEXXXXXX" required></td></tr>
+                    <tr>
+            <td><label>Password:</label></td>
+            <td><input type="password" min="6" max="10" placeholder="More than 6 characters" required></td></tr>
+                    <tr>
+            <td><label>Date of Admission:</label></td>
+            <td><input type="date" required></td></tr>
+                    <tr>
+            <td><label>Mobile Number:</label></td>
+            <td><input type="tel" min="8" max="11" required placeholder="Enter valid number"></td></tr>
+                    <tr>
+            <td><label>Email:</label></td>
+            <td><input type="email" required placeholder="xxxxxxxxxxx@karunya.edu"></td></tr>
+                    <tr>
+            <td><label>Address:</label></td>
+            <td><textarea></textarea></td></tr>
+                    <tr>
+            <td><label>Day-Scholar</label></td>
+            <td><input type="radio" value="Yes" name="Day-Scholar">Yes
+            <input type="radio" value="No" name="Day-Scholar">No</td></tr>
+                    <tr>
+            <td><label>Languages Known</label></td>
+            <td><input type="checkbox" value="English">English
+            <input type="checkbox" value="Hindi">Hindi
+            <input type="checkbox" value="Tamil">Tamil</td></tr>
+                    <tr>
+            <td><label>Department:</label></td>
+            <td><select name="department">
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="MECH">MECH</option>
+                <option value="CIVIL">CIVIL</option>
+                <option value="EMT">EMT</option>
+                <option value="AGRI">AGRI</option>
+            </select></td></tr>
+                    <tr>
+            <td><label>Passport Size Photo:</label></td>
+            <td><input type="file"></td></tr>
+                            <tr><td>
+                                    <meter value="6" min="0" max="10"></meter>
+                                    <progress value="60" max="100" min="30"></progress>                 </td></tr>
+                    <tr>
+                        <td><input type="submit" value="submit"></td></tr>
+                    
+            </center></table>
+        </fieldset>
+            </form>
+    </body>
+</html>
